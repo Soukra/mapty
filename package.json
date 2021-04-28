@@ -1,0 +1,19 @@
+{
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "Mapty App",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Aaron Carrasco",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "*"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-private-methods": "^7.13.0"
+  }
+}
