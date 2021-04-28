@@ -323,3 +323,5 @@ class App {
 }
 
 const app = new App();
+
+console.log('Welcome to Mapty');
